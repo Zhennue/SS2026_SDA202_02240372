@@ -23,7 +23,7 @@ an Automated Assignment Grading workflow where a student begins by submitting th
 2
 ![alt text](<UseCase (UCD).png>)
 
-outlines the functional requirements of the Automated Assignment Grading System, highlighting the interactions between human actors and external technical systems. At its core, the Student initiates the process by submitting an assignment, which triggers a central "Grade & Report Submission" function. This central use case automatically coordinates several included actions: cloning code from GitHub, executing automated tests, performing a plagiarism check via Turnitin, and persisting data to a database. The Professor manages the logic by configuring tests and assigning final grades, while the Admin oversees the records. Ultimately, the system automates the heavy lifting of evaluation and syncs the results directly with the LMS Mainframe.
+outlines the functional requirements of the Automated Assignment Grading System, highlighting the interactions between human actors and external technical systems. At its core, the Student initiates the process by submitting an assignment, which triggers a central "Grade & Report Submission" function. This central use case automatically coordinates several included actions: cloning code from GitHub, executing automated tests, performing a plagiarism check via Turnitin, and persisting data to a database. The Professor manages the logic by configuring tests and assigning final grades, while the Admin oversees the records. Ultimately, the system automates the heavy lifting of evaluation and syncs the results directly with LMS Mainframe.
 
 
 ## 4. Conclusion
