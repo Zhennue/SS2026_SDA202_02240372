@@ -17,10 +17,13 @@ These modeling techniques help in visualizing system behavior, improving design 
 1
 ![alt text](IOD.png)
 
+an Automated Assignment Grading workflow where a student begins by submitting their work to a GitHub repository. The process then splits into two parallel paths for the professor: one focused on technical review (cloning the repo and checking output in VSCode) and the other on academic integrity (checking for plagiarism via Turnitin). Once the submission is validated, the professor assigns a grade, which is then reviewed by an administrator for record-keeping before the process reaches its final conclusion. If a submission is rejected at the plagiarism stage, the loop resets, presumably requiring the student to start over.
+
+
 2
 ![alt text](<UseCase (UCD).png>)
 
-3
+outlines the functional requirements of the Automated Assignment Grading System, highlighting the interactions between human actors and external technical systems. At its core, the Student initiates the process by submitting an assignment, which triggers a central "Grade & Report Submission" function. This central use case automatically coordinates several included actions: cloning code from GitHub, executing automated tests, performing a plagiarism check via Turnitin, and persisting data to a database. The Professor manages the logic by configuring tests and assigning final grades, while the Admin oversees the records. Ultimately, the system automates the heavy lifting of evaluation and syncs the results directly with the LMS Mainframe.
 
 
 ## 4. Conclusion
