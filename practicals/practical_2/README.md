@@ -15,15 +15,20 @@ These modeling techniques help in visualizing system behavior, improving design 
 ## 3.  Tasks
 
 1
-![alt text](IOD.png)
+[text](IOD.drawio)
 
-an Automated Assignment Grading workflow where a student begins by submitting their work to a GitHub repository. The process then splits into two parallel paths for the professor: one focused on technical review (cloning the repo and checking output in VSCode) and the other on academic integrity (checking for plagiarism via Turnitin). Once the submission is validated, the professor assigns a grade, which is then reviewed by an administrator for record-keeping before the process reaches its final conclusion. If a submission is rejected at the plagiarism stage, the loop resets, presumably requiring the student to start over.
+aIn this process, the student submits their code to the system while the professor sets the deadline and grading rules. The system then runs the code, checks for plagiarism, and generates a grade automatically. After that, the result is sent to the VLE (Moodle) and shown to the student with feedback. If the student wants to improve, they can resubmit; otherwise, the process ends.
 
 
 2
-![alt text](<UseCase (UCD).png>)
+[text](UML.drawio)
 
-outlines the functional requirements of the Automated Assignment Grading System, highlighting the interactions between human actors and external technical systems. At its core, the Student initiates the process by submitting an assignment, which triggers a central "Grade & Report Submission" function. This central use case automatically coordinates several included actions: cloning code from GitHub, executing automated tests, performing a plagiarism check via Turnitin, and persisting data to a database. The Professor manages the logic by configuring tests and assigning final grades, while the Admin oversees the records. Ultimately, the system automates the heavy lifting of evaluation and syncs the results directly with LMS Mainframe.
+In this system, the professor creates an assignment and sets the rules, which are shared with students through the system. Students then submit their code, and the system automatically runs the program, checks for plagiarism, and generates a grade. The results are stored and sent to Moodle, where students can view their feedback. If needed, students can resubmit their work before the deadline to improve their grade.
+
+3
+[text](IOD2.drawio)
+
+In this interaction overview, the professor first sets up the assignment with rules and deadlines, which are then made available to students through the system. Students submit their code, and the system processes it by running tests, checking plagiarism, and generating grades. The results are shared via Moodle and also shown to the students as feedback. Students can resubmit their work if allowed, and professors can review submissions and reports for monitoring and audit purposes.
 
 
 ## 4. Conclusion
