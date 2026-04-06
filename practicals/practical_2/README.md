@@ -21,7 +21,7 @@ aIn this process, the student submits their code to the system while the profess
 
 
 2
-[text](UML.drawio)
+[text](UseCaseD.drawio)
 
 In this system, the professor creates an assignment and sets the rules, which are shared with students through the system. Students then submit their code, and the system automatically runs the program, checks for plagiarism, and generates a grade. The results are stored and sent to Moodle, where students can view their feedback. If needed, students can resubmit their work before the deadline to improve their grade.
 
