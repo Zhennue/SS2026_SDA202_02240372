@@ -7,3 +7,4 @@ At the top, a general User class (with login/logout) is inherited by two special
 2. Object Diagram
 [text](OD.drawio)
 
+This object diagram represents a simple academic system at a particular moment. It shows real instances like a student, submission, assignment, and professor with their actual details. From the diagram, I can see how the student submits an assignment, which is linked to a professor, along with the system giving a score and feedback. Overall, it helps me understand the relationships between these objects in a real scenario.
